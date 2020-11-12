@@ -1,0 +1,39 @@
+{
+  "name": "@mtsmfm/react-masonry",
+  "version": "0.1.0",
+  "description": "Masonry layout component for React",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsmfm/react-masonry.git"
+  },
+  "keywords": [
+    "react",
+    "masonry"
+  ],
+  "author": "Fumiaki MATSUSHIMA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtsmfm/react-masonry/issues"
+  },
+  "homepage": "https://github.com/mtsmfm/react-masonry#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "typescript": "^4.0.5"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "dependencies": {
+    "@juggle/resize-observer": "^3.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
